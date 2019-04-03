@@ -23,6 +23,29 @@
   color: #61dafb;
 }
 
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn
+{
+  height: 40px;
+  width: 70px;
+  background-color:#029AEF;
+  color:white;
+  padding: 7px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
